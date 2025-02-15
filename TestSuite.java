@@ -4,7 +4,7 @@ public class TestSuite {
     public static void run() {
         System.out.println("Starting TestSuite");
         boolean pass = true;
-
+// commmit #2 
         pass &= testPolygon("Single Point", new double[][] { { 0, 0 } }, 0, 0);
         pass &= testPolygon("Unit Square", new double[][] { { 0, 0 }, { 0, 1 }, { 1, 1 }, { 1, 0 } }, 4, 1);
         pass &= testPolygon("Parallelogram", new double[][] { { 20, 10 }, { 70, 20 }, { 50, 50 }, { 0, 40 } }, 174.0914, 1700);
